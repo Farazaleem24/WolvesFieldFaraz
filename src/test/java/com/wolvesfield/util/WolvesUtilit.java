@@ -83,7 +83,7 @@ public class WolvesUtilit {
 	public void takeScreenshot(String testName) {
 		File sc = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		try {
-			Files.copy(sc, new File("C:\\Users\\Faraz Aleem\\Documents\\screenshots\\"+testName+".jpg"));
+			Files.copy(sc, new File(".\\screenshots\\"+testName+".jpg"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
