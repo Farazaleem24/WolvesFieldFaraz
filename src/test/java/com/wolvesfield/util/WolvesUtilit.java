@@ -13,8 +13,8 @@ import com.wolvesfield.main.OurDriver;
 
 public class WolvesUtilit {
 
-	OurDriver od = OurDriver.getInstance();
-	WebDriver driver = od.getDriver();
+	
+	WebDriver driver = OurDriver.getDriver();
 
 	public void goToUrl(String url) {
 		driver.get(url);
