@@ -22,7 +22,7 @@ public class OurDriver {
 		return driverClassInstance;
 	}
 	
-	public WebDriver getDriver() {
+	public static WebDriver getDriver() {
 		return driver;
 	}
 

@@ -4,11 +4,11 @@ package zTry;
 import org.testng.annotations.Test;
 
 import com.wolvesfield.main.OurDriver;
-import com.wolvesfield.util.WolvesUtilit;
+import com.wolvesfield.util.WolvesUtil;
 
 public class Sept8screenshot {
 
-	WolvesUtilit wu = new WolvesUtilit();
+	WolvesUtil wu = new WolvesUtil();
 	OurDriver od = OurDriver.getInstance();
 	
 	@Test

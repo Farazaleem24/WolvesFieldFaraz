@@ -11,7 +11,7 @@ import org.openqa.selenium.WebDriver;
 import com.google.common.io.Files;
 import com.wolvesfield.main.OurDriver;
 
-public class WolvesUtilit {
+public class WolvesUtil {
 
 	OurDriver od = OurDriver.getInstance();
 	WebDriver driver = od.getDriver();

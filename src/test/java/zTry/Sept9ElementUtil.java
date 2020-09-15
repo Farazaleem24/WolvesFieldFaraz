@@ -1,10 +1,10 @@
 package zTry;
 
-import com.wolvesfield.util.WolvesUtilit;
+import com.wolvesfield.util.WolvesUtil;
 
 public class Sept9ElementUtil {
 
-	WolvesUtilit wu = new WolvesUtilit();
+	WolvesUtil wu = new WolvesUtil();
 	public void tryUtil() {
 	wu.clickElement("xpath");
 }
