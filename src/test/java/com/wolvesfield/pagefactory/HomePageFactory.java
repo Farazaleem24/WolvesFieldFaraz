@@ -15,4 +15,6 @@ public class HomePageFactory {
 	
 	@FindBy(xpath = "//img[@class='main-logo']")
 	public WebElement mainLogo; 
+	
+	@FindBy()
 }
