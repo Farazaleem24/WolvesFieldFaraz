@@ -8,7 +8,8 @@ import com.wolvesfield.util.WolvesUtil;
 
 public class Sept8screenshot {
 
-	WolvesUtil wu;
+WolvesUtil wu;
+master
 	OurDriver od = OurDriver.getInstance();
 	
 	@Test

@@ -12,9 +12,8 @@ import com.google.common.io.Files;
 import com.wolvesfield.main.OurDriver;
 
 public class WolvesUtil {
-
 	
-	WebDriver driver = OurDriver.getDriver();
+WebDriver driver = OurDriver.getDriver();
 
 	public void goToUrl(String url) {
 		driver.get(url);
