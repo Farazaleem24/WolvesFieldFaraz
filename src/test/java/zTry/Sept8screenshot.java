@@ -8,12 +8,14 @@ import com.wolvesfield.util.WolvesUtil;
 
 public class Sept8screenshot {
 
-	WolvesUtil wu = new WolvesUtil();
+WolvesUtil wu;
+master
 	OurDriver od = OurDriver.getInstance();
 	
 	@Test
 	public void tryScreenShot() {
 		od.openBrowserSingleton("chrome");
+		wu = new WolvesUtil();
 		wu.sleep(2);
 		wu.takeScreenshot("sample");
 	}

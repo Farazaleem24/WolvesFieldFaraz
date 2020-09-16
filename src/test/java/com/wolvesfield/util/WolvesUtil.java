@@ -12,9 +12,8 @@ import com.google.common.io.Files;
 import com.wolvesfield.main.OurDriver;
 
 public class WolvesUtil {
-
-	OurDriver od = OurDriver.getInstance();
-	WebDriver driver = od.getDriver();
+	
+WebDriver driver = OurDriver.getDriver();
 
 	public void goToUrl(String url) {
 		driver.get(url);
@@ -83,7 +82,7 @@ public class WolvesUtil {
 	public void takeScreenshot(String testName) {
 		File sc = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		try {
-			Files.copy(sc, new File("C:\\Users\\Faraz Aleem\\Documents\\screenshots\\"+testName+".jpg"));
+			Files.copy(sc, new File(".\\screenshots\\"+testName+".jpg"));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
